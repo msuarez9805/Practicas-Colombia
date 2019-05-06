@@ -1,0 +1,113 @@
+[
+    {
+        "Empresa": "Nestlë",
+        "Ubicación": "Bogotá",
+        "Facultad": "Ingeniería",
+        "Teléfono": "5456785",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Compensar",
+        "Ubicación": "Medellín",
+        "Facultad": "Medicina",
+        "Teléfono": "2234412",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Bancolombia",
+        "Ubicación": "Bogotá",
+        "Facultad": "Administración",
+        "Teléfono": "7678843",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Brinsa S.A",
+        "Ubicación": "Santa Marta",
+        "Facultad": "Administración",
+        "Teléfono": "3233445",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Ecopetrol",
+        "Ubicación": "Cali",
+        "Facultad": "Ingeniería",
+        "Teléfono": "2311124",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Lóreal",
+        "Ubicación": "Bogotá",
+        "Facultad": "Idiomas",
+        "Teléfono": "6788895",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "EAN",
+        "Ubicación": "Bogotá",
+        "Facultad": "Comunicación",
+        "Teléfono": "5444221",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Ecopetrol",
+        "Ubicación": "Bogotá",
+        "Facultad": "Ingeniería",
+        "Teléfono": "8789965",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Cruz Verde",
+        "Ubicación": "Meta",
+        "Facultad": "Medicina",
+        "Teléfono": "3432211",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Avianca",
+        "Ubicación": "Bogotá",
+        "Facultad": "Idiomas",
+        "Teléfono": "5678885",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Bogotá",
+        "Ubicación": "Bogotá",
+        "Facultad": "Administración",
+        "Teléfono": "4455322",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Latam",
+        "Ubicación": "Bogotá",
+        "Facultad": "Idiomas",
+        "Teléfono": "1233145",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Everis",
+        "Ubicación": "Cali",
+        "Facultad": "Ingeniería",
+        "Teléfono": "6555789",
+        "Elegir": "SELECCIONAR"
+    },
+
+    {
+        "Empresa": "Texmoda",
+        "Ubicación": "Medellín",
+        "Facultad": "Administración",
+        "Teléfono": "5443321",
+        "Elegir": "SELECCIONAR"
+    }
+]

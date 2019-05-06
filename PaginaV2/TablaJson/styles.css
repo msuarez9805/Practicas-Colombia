@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(img/cambiarimagen.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+button {
+    width: 15%;
+    margin: 10px 370px 25px;
+}
+
+.btn {
+    background-color: darkgrey;
+    color: black;
+    font-size: 18px;
+}
+
+.btn:hover, .btn:focus {
+    background-color: gainsboro;
+}
+.table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+}
+th, td {
+    padding: 25px
+}
+th {
+    background-color: slategray;
+    border-bottom: solid 3px black;
+    color: black;
+}
+.tabla {
+    margin: 150px auto;
+    height: 900px;
+    padding: 0;
+    width: 900px;
+    background-color: #f5f5f5;
+    opacity: .75;
+    padding: 0 18px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 5px;
+}

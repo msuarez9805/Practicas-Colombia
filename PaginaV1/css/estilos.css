@@ -1,0 +1,96 @@
+body {
+
+}
+
+article {
+    padding: 20px;
+    width: 30%;
+    float:left;
+    margin-bottom: 20px;
+}
+
+
+aside {
+    width: 70%;
+    float:left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+footer{
+    background: #000;
+    color: #fff;
+    clear:both;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+header {
+    background-image: url(../images/EAN2.jpg);
+}
+
+p {
+     font-style: normal;
+     font-family: Merriweather;
+     font-size: 20px;
+    }
+
+ul {
+     font-style: normal;
+     font-family: Merriweather;
+     font-size: 20px;
+    }
+
+.white-text {
+        color: #ffffff;
+    }
+
+.thick-green-border{
+        border-color: #33cc33;
+        border-width: thin
+
+    }
+.thick-blue-border {
+        border-color: #0066cc;
+        border-width: 50px;
+        border-style: solid;
+        border-radius: 50%;
+    }
+
+.thick-white-border {
+        border-color: whitesmoke;
+        border-width: 10px;
+        border-style: solid;
+        border-radius: 50%;
+    }
+
+.smaller-image {
+        width: 100px;
+    }
+
+.medium {
+    padding: 50px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
+    }
+
+
+.lista {
+    padding: 50px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
+    }
+
+.medium-image {
+    width: 200px;
+}
+
+.navbar{ background:crimson;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
