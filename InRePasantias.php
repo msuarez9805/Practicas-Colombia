@@ -1,4 +1,4 @@
-/*+
+/**
 *
 *@method $include y $requiere
 *El metodo include sirve para agregar texto llamando a un archivo diferente
