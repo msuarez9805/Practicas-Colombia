@@ -13,7 +13,7 @@
 		<!--Enlace Estilos -->
 		<link rel="stylesheet" href="css/LoginCss.css">
     </head>
-    
+
     <body>
         <!-- Barra de Navegación -->
 		<nav class="navbar navbar-expand-lg fixed-top ">
@@ -43,7 +43,7 @@
 		</nav>
     <br>
     <br>
-    
+
     <!-- Presentaciones de los perfiles -->
     <div class="container-fluid padding">
         <div class="row padding">

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	
+
     <head>
 		<meta charset="UTF-8">
 		 <!-- +++++++++++ -->
@@ -14,7 +14,7 @@
 		<!--Enlace Estilos -->
         <link rel="stylesheet" href="css/LoginCss.css">
     </head>
-		
+
     <body>
        	<!-- Barra de Navegación -->
 		<nav class="navbar navbar-expand-lg fixed-top ">
@@ -42,8 +42,8 @@
 				</ul>
 			</div>
 		</nav>
-		<br>  
-		<br>   
+		<br>
+		<br>
 		<br>
 
 		<div class="container-fluid padding">
@@ -78,7 +78,7 @@
 					</div>
 				</div>
 			</div>
-		</div>     
+		</div>
     </body>
 </html>
 
