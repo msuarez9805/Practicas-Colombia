@@ -67,9 +67,6 @@
 				</div> <!--Final del Modal Content-->
 			</div>
     	</div>
-<<<<<<< HEAD:Proyecto/Login.php
-
->>>>>>> master:Proyecto/Login.php
 		<script src="js/login.js" type="text/javascript"></script>
 	</body>
 </html>
