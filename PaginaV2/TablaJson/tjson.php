@@ -14,11 +14,15 @@
 </head>
 
 <body>
-
+	<style>
+		background: url(../Img/ImagenFondo.jpg);
+	</style>
     <div class="container tabla">
         <div class="section">
-            <p class="center-align"><button type="submit" class="btn" id="info">ENVIAR
-                </button></p>
+            <p class="center-align">
+				<button type="submit" class="btn" id="info">ENVIAR</button>
+				<a href="../CerrarSession.php">Cerrar Sesion</a>
+			</p>
             <table>
                 <thead>
                     <tr>
