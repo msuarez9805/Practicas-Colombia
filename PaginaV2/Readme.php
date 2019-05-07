@@ -13,7 +13,7 @@
 		<!--Enlace Estilos -->
         <link rel="stylesheet" href="css/LoginCss.css">
     </head>
-	
+
     <body>
     	<!-- Barra de Navegación -->
 		<nav class="navbar navbar-expand-lg fixed-top ">
@@ -41,8 +41,8 @@
 				</ul>
 			</div>
 		</nav>
-		<br>  
-		<br>   
+		<br>
+		<br>
 		<br>
 
 		<div class="container-fluid padding">
@@ -56,10 +56,10 @@
 								<img src="img/cambiarimagen4.jpg" class="img-fluid" alt="Cambiar Imagen 4" width="300px">
 							</aside>
 							<article>
-								<p>  
+								<p>
 								Pagina web creada por estudiantes de ingenieria para solucionar el problema de las practicas en Colombia.
 								Constantemente estaremos asociando mas empresas para que los usuarios tengan mas oportunidad de completar su proceso de practicas<br/>
-								Si tienes alguna sugerencia o tienes idea de alguna empresa que este dispuesta a contar con nuestro servicio puedes ir a la seccion de contacto y escribirnos 
+								Si tienes alguna sugerencia o tienes idea de alguna empresa que este dispuesta a contar con nuestro servicio puedes ir a la seccion de contacto y escribirnos
 								</p>
 							</article>
 						</section>
@@ -67,7 +67,7 @@
 					</div>
 				</div>
 			</div>
-		</div> 
+		</div>
 	</body>
-	
+
 </html>

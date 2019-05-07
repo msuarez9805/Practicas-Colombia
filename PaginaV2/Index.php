@@ -13,18 +13,18 @@
 		<!--Enlace Estilos -->
 		<link rel="stylesheet" href="css/styles.css">
 		<!--Enlace fontawesome Iconos -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> 
-		
-		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
 		<!--
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	
+
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 		-->
-	
+
 	</head>
 
 	<body>
@@ -77,7 +77,7 @@
 
 
 		<!--
-	Comentarios sobre el Objetivo de la página 
+	Comentarios sobre el Objetivo de la página
 		<div class="container-fluid">
 			<div class="row jumbotron">
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
@@ -103,7 +103,7 @@
 		</div>
 
 		<!-- Busqueda de practicas -->
-		
+
 			<div class="filtrado">
 				<br>
 				<div align="center"><h2 style="color: white"> ENCUENTRA AQUI TUS PRACTICAS </h2>
@@ -111,16 +111,16 @@
 				<button type="button" class="btn btn-outline-light btn-lg"><a href="TablaJson/tjson.html"> OFERTAS JSON </a> </button>
 				<button type="button" class="btn btn-outline-light btn-lg"><a href="NuevosEmpleos.html"> AGREGAR OFERTA </a> </button>
 				</div>
-				
+
 				<div align="center">
-					
-				</div> 
+
+				</div>
 				<br>
 			</div>
-			<br> 
+			<br>
 
 		<!-- Mas info -->
-		
+
 		<div class="container-fluid padding">
 			<div class="row text-center padding">
 				<div class="col-xs-12 col-sm-6 col-md-4">
@@ -168,7 +168,7 @@
 
 		<hr class="my-4">
 
-		<!-- Imagen 
+		<!-- Imagen
 		<figure>
 			<div class="fixed-wrap">
 				<div id="fixed">
@@ -230,7 +230,7 @@
 				</div>
 			</div>
 		</footer>
-		
+
 	</body>
-	
+
 </html>

@@ -1,15 +1,17 @@
 <html>
 	<head>
 		<meta charset = "utf-8">
-		<!-- bootstrap -->
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet"/>
-		<!-- Enlace con Javascript -->
-		<script src="js/Tablas.js" type="text/javascript"></script>
-		 <!-- Agregar icono de la página-->
-    	<link rel="shortcut icon" type="image/x-icon" href="Img/LogotipoPracticasColombia.ico">
 		<!-- +++++++++++ -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <!-- Colocamos la etiqueta title para dar titulo a la pagina -->
+		<!-- Bootstrap -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet"/>
+		<!-- Enlace Java -->
+		<script src="js/Tablas.js" type="text/javascript"></script>
+		 <!-- Agregar icono de la página-->
+		<link rel="shortcut icon" type="image/x-icon" href="Img/LogotipoPracticasColombia.ico">
+		<!-- Enlace con Javascript -->
+		<script src="js/Tablas.js" type="text/javascript"></script>
+		<!-- Colocamos la etiqueta title para dar titulo a la pagina -->
 		<title>Nuevo Empleo</title>
 		<!-- Agregar icono de la página-->
 		<link rel="shortcut icon" type="image/x-icon" href="Img/LogotipoPracticasColombia.ico">
@@ -17,7 +19,9 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<!-- Enlace Estilos -->
 		<link rel="stylesheet" href="css/EstilosTablas.css">
-		<link rel="stylesheet" href="css/LoginCss.css">	
+		<link rel="stylesheet" href="css/LoginCss.css">
+		<link rel="stylesheet" href="css/EstilosTablas.css">
+
 	</head>
 
 	<body>
@@ -47,40 +51,29 @@
 				</ul>
 			</div>
 		</nav>
-		
-		
+
+
 		<!-- Titulos -->
 		<div id = "cuadro">
 			<center>
 				<br>
 				<br>
 				<h1><strong>PRACTICAS COLOMBIA</strong></h1>
-				<h3>Registro nuevos empleos</h3>
-				<br>
-				<!-- Formulario -->
-				<div class="insertar">
-					<input type="text" id="empresa" placeholder="Empresa">
-					<input type="text" id="ciudad" placeholder="Ciudad">
-					<input type="text" id="carrera" placeholder="Carrrera">
-					<br>
-					<br>
-					<button type="button" class="btn btn-primary mr-2"  onclick="agregarFila()">Agregar Empleo</button>
-					<button type="button" class="btn btn-danger" onclick="eliminarFila()">Eliminar Empleo</button>
-				</div>
-				<br>
+				<h3>Buscar empleo nuevos empleos</h3>
+				<div class = "derecha" id = "Buscar"> Buscar <input type = "search" class = "table-filter" data-table = "order-table" placeholder = "Filtrar"></div>
 			</center>
-			
-		<!-- Tabla -->	
+
+		<!-- Tabla -->
 		<div class = "datagrid">
-			<table border="1" class="table" id="tablaprueba">
-				<thead class="thead-dark">
+			<table class = "order-table table">
+							<thead class="thead-dark">
 					<tr>
 					  <th> EMPRESA</th>
 					  <th> CIUDAD</th>
 					  <th> CARRERA</th>
 					</tr>
 				</thead>
-				
+
 				<tbody>
 					<tr>
 						<td>NESTLË</td><td>BOGOTA</td><td>INGENIERIA DE SISTEMAS</td>
