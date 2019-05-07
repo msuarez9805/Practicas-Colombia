@@ -4,7 +4,7 @@ function agregarFila(){
 	var empresa = document.getElementById("empresa").value;
 	var ciudad = document.getElementById("ciudad").value;
 	var facultad = document.getElementById("carrera").value;
-	
+
 	document.getElementById("tablaprueba").insertRow(-1).innerHTML = ('<td>'+ empresa +'</td><td>'+ ciudad +'</td><td>'+ facultad +'</td>');
 }
 
@@ -14,7 +14,7 @@ function agregarFila(){
 	if(rowCount <= 1)
 		alert('No se puede eliminar el encabezado');
 	else
-		table.deleteRow(rowCount -1); 
+		table.deleteRow(rowCount -1);
 }
 
 
