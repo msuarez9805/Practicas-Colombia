@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -46,15 +50,15 @@
 				<div class="modal-content">
 					<div class="col-12 user-img">
 						<img src="img/LogotipoPracticasColombia.ico" alt="Logo Prácticas Colombia">
-						<form class="col-12" onsubmit="return validar();">
+							<form class="col-12" method="post" onsubmit="return validar();" action="ValidaLoginSession.php">
 							<div class="form-group">
-								<input id="correo" type="email" class="form-control" placeholder="Correo electrónico" required>
+								<input id="correo" type="email" name="email" class="form-control" placeholder="Correo electrónico" required>
 							</div>
 							<div class="form-group">
-								<input id="contraseña" type="password" class="form-control" placeholder="Contraseña" required>
+								<input id="contraseña" type="password" name="password" class="form-control" placeholder="Contraseña" required>
 							</div>
-							<button type="submit" class="btn"><i class="fas "></i>ENVIAR</button>
-						</form>
+							<button type="submit" name="submit" class="btn"><i class="fas "></i>ENVIAR</button>
+							</form>
 						<div class="col-12 forgot">
 							<h10>¿Aún no estas registrado?</h10>
 							<a href="registro.html">Registrarte</a>
@@ -63,7 +67,9 @@
 				</div> <!--Final del Modal Content-->
 			</div>
     	</div>
+<<<<<<< HEAD:Proyecto/Login.php
 
+>>>>>>> master:Proyecto/Login.php
 		<script src="js/login.js" type="text/javascript"></script>
 	</body>
 </html>
