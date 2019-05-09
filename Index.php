@@ -152,15 +152,17 @@
 						<br>
 						<br>
 						No hay nada mejor que mostrar lo mejor de lo que somos y también de lo que brindamos para tener colaboradores altamente motivados al interior de nuestras plantillas. De esta manera es más sencillo que se sientan comprometidos con los objetivos de nuestra empresa , que disfruten desarrollando su trabajo y que nos ayuden mejorar nuestra reputación de marca empleadora, nuestro Employer Branding.
+						<br>
+						<br>
+						Acontinuación encontraras algunos consejos al momento de iniciar sus pasantias.
 					</p>
-					<br>
-					<button type="button" class="btn btn-primary">INFORMACIÓN
-					</button>
 				</div>
 				<div class="col-lg-6">
 					<img src="img/cambiarimagen4.jpg" class="img-fluid" alt="Cambiar Imagen 4">
 				</div>
+				<button type="button" class="btn btn-primary"><a href="Include/Pasantias.php">Clic aquí
 			</div>
+			<button type="button" class="btn btn-primary"><a href="Include/InRePasantias.php">Clic aquí para mas info
 		</div>
 
 		<hr class="my-4">

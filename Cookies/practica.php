@@ -6,9 +6,7 @@
 		echo '<script>alert("Usted no tiene autorizacion, Debe iniciar session con su cuenta de Practicas Colombia para poder acceder a este apartado. Gracias")</script>';	
 		die();
 	}
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
