@@ -53,7 +53,7 @@
 			<div class="col-sm-8 main-section">
 				<div class="modal-content">
 					<div class="col-12 user-img">
-						<img src="../img/LogotipoPracticasColombia.ico" alt="Logo Prácticas Colombia">
+						<img src="../Img/LogotipoPracticasColombia.ico" alt="Logo Prácticas Colombia">
 							<form class="col-12" method="post" onsubmit="return validar();" action="ValidarLoginSession.php" >
 							<div class="form-group">
 								<input id="correo" type="email" name="email" class="form-control" placeholder="Correo electrónico" required>

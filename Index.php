@@ -105,7 +105,7 @@
 				<div align="center"><h2 style="color: white"> ENCUENTRA AQUI TUS PRACTICAS </h2>
 				<button type="button" class="btn btn-outline-light btn-lg"><a href="BuscarEmpleos.php"> VER OFERTAS </a> </button>
 				<button type="button" class="btn btn-outline-light btn-lg"><a href="TablaJson/tjson.php"> OFERTAS JSON </a> </button>
-				<button type="button" class="btn btn-outline-light btn-lg"><a href="NuevosEmpleos.html"> AGREGAR OFERTA </a> </button>
+				<button type="button" class="btn btn-outline-light btn-lg"><a href="NuevosEmpleos.php"> AGREGAR OFERTA </a> </button>
 				<button type="button" class="btn btn-primary btn-lg"><a href="Cookies/practica.php"> APLICA AHORA </a>
 				</div>
 
@@ -158,7 +158,7 @@
 					</p>
 				</div>
 				<div class="col-lg-6">
-					<img src="img/cambiarimagen4.jpg" class="img-fluid" alt="Cambiar Imagen 4">
+					<img src="Img/cambiarimagen4.jpg" class="img-fluid" alt="Cambiar Imagen 4">
 				</div>
 				<button type="button" class="btn btn-primary"><a href="Include/Pasantias.php">Clic aquí
 			</div>
