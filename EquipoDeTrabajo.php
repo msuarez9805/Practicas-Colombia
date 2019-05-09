@@ -11,7 +11,7 @@
 		<!--Bootstrap nav-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<!--Enlace Estilos -->
-		<link rel="stylesheet" href="css/LoginCss.css">
+		<link rel="stylesheet" href="css/Styles2.css">
     </head>
 
     <body>
@@ -25,15 +25,15 @@
 			<div class="collapse navbar-collapse " id="navbarSupportedContent">
 				<ul class="navbar-nav mr-4">
 					<li class="nav-item">
-						<a class="nav-link" data-value="about" href="Index.html">Inicio</a> </li>
+						<a class="nav-link" data-value="about" href="Index.php">Inicio</a> </li>
 					<li class="nav-item">
-						<a class="nav-link " data-value="portfolio" href="Readme.html">Acerca de</a>
+						<a class="nav-link " data-value="portfolio" href="Readme.php">Acerca de</a>
 						</li>
 					<li class="nav-item">
-						<a class="nav-link " data-value="team" href="EquipoDeTrabajo.html">Equipo</a>
+						<a class="nav-link " data-value="team" href="EquipoDeTrabajo.php">Equipo</a>
 						</li>
 					 <li class="nav-item">
-						<a class="nav-link " data-value="blog" href="License.html">Licencia</a>
+						<a class="nav-link " data-value="blog" href="License.php">Licencia</a>
 						</li>
 					<li class="nav-item">
 						<a class="nav-link " href="mailto:atencionalusuario@practicascolombia.com">Contacto</a>
@@ -41,6 +41,7 @@
 				</ul>
 			</div>
 		</nav>
+    <br>
     <br>
     <br>
 
@@ -77,7 +78,7 @@
                             Rol: co-creadora de la pagina web practicas Colombia <br>
                             Responsabilidades: Analisis, desarrollo, pruebas. <br>
                             Correo: nmorales7952@universidadean.edu.co<br>
-                        <a href="#" class="btn btn-outline-secondary">Cont
+                        <a href="#" class="btn btn-outline-secondary">Contactar
                         </a>
                     </div>
                 </div>
@@ -101,21 +102,44 @@
                 </div>
             </div>
 
-        </div>
-    </div>
+    
+    	<!-- Footer -->
+		<footer>
+			<div class="container-fluid padding">
+				<div class="row text-center">
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>PERSONAS</h5>
+						<hr class="light">
+						<p>Registro</p>
+						<p>Hoja de Vida</p>
+						<p>Salario</p>
+						<p>Ofertas</p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>EMPRESAS</h5>
+						<hr class="light">
+						<p>Registro</p>
+						<p>Publicar oferta</p>
+						<p>Temporales de empleo</p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>NOTICAS</h5>
+						<hr class="light">
+						<p>Empleos</p>
+						<p>Mundo actual</p>
+						<p>Tendencias laborales</p>
+						<p>Otras noticias</p>
+					</div>
+					<div class="col-12">
+						<hr class="light">
+						 <h10> COPYRIGHT © 2019 Practicas Colombia S.A.S Prohibida su reproducción total o parcial, así como su traducción a cualquier idioma sin autorización escrita de su titular. PracticasColombia es un producto de Practicas Colombia S.A.S. Nit. 830456789. Aviso de privacidad</h10>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-    <!-- Contacto -->
-    <div class="container-fluid padding">
-        <div class="row text-center padding">
-            <div class="col-12">
-                <h2>Contáctanos</h2>
-            </div>
-            <div class="col-12 social padding">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-            </div>
-        </div>
-    </div>
     </body>
 <html>
