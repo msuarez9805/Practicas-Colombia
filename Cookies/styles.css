@@ -4,7 +4,7 @@
 body {
     color: black;
     font-family: 'poppins', sans-serif;
-    background: url(img/imagen-fondo.jpg) no-repeat center center fixed;
+    background: url(../Img/ImagenFondo.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -18,7 +18,7 @@ body {
 
 /* Nav Bar */
 .navbar {
-    background: #3f704d;
+    background: rgba(44, 45, 54, 0.9);
     opacity: .9;
 }
 
@@ -26,7 +26,7 @@ body {
 .navbar-brand {
     color: ghostwhite;
     cursor: pointer;
-    font-size: 20px;
+    font-size: px;
 }
 
 .nav-link {
@@ -34,7 +34,6 @@ body {
 }
 
 .nav-link:hover {
-    background: #9dc183;
     color: black;
 }
 
@@ -45,6 +44,7 @@ body {
 .navbar-toggler {
     background: #fff !important;
 }
+
 
 /* Estilos p */
 
@@ -64,4 +64,17 @@ p {
 .imagenes {
     display: block;
     margin: auto;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
 }

@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: url();
     background-size: cover;
+	background: url(../Img/ImagenFondo.jpg) no-repeat center center fixed;
 }
 
 button {

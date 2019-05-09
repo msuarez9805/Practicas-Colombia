@@ -15,14 +15,10 @@
 		<!--Enlace fontawesome Iconos -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-
 		<!--
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
 		-->
 
 	</head>
@@ -38,15 +34,15 @@
 			<div class="collapse navbar-collapse " id="navbarSupportedContent">
 				<ul class="navbar-nav mr-4">
 					<li class="nav-item">
-						<a class="nav-link" data-value="about" href="Index.html">Inicio</a> </li>
+						<a class="nav-link" data-value="about" href="Index.php">Inicio</a> </li>
 					<li class="nav-item">
-						<a class="nav-link " data-value="portfolio" href="Readme.html">Acerca de</a>
+						<a class="nav-link " data-value="portfolio" href="Readme.php">Acerca de</a>
 						</li>
 					<li class="nav-item">
-						<a class="nav-link " data-value="team" href="EquipoDeTrabajo.html">Equipo</a>
+						<a class="nav-link " data-value="team" href="EquipoDeTrabajo.php">Equipo</a>
 						</li>
 					 <li class="nav-item">
-						<a class="nav-link " data-value="blog" href="License.html">Licencia</a>
+						<a class="nav-link " data-value="blog" href="License.php">Licencia</a>
 						</li>
 					<li class="nav-item">
 						<a class="nav-link " href="mailto:atencionalusuario@practicascolombia.com">Contacto</a>
@@ -64,10 +60,10 @@
 						<h1 class="display-2">Prácticas Colombia</h1>
 						<h3>Te ayudamos en tu crecimiento profesional</h3>
 						<!--Buton para acceder al Html de login-->
-						<button type="button" class="btn btn-outline-light btn-lg"> <a href="Login.php">INICIAR SESION</a>
+						<button type="button" class="btn btn-outline-light btn-lg"> <a href="Session/Login.php">INICIAR SESION</a>
 						</button>
 						<!--Buton para acceder al Html de login-->
-						<button type="button" class="btn btn-primary btn-lg"><a href="registro.html"> REGISTRATE </a>
+						<button type="button" class="btn btn-primary btn-lg"><a href="Session/Registro.php"> REGISTRATE </a>
 						</button>
 					</div>
 				</div>
@@ -107,9 +103,10 @@
 			<div class="filtrado">
 				<br>
 				<div align="center"><h2 style="color: white"> ENCUENTRA AQUI TUS PRACTICAS </h2>
-				<button type="button" class="btn btn-outline-light btn-lg"><a href="BuscarEmpleos.html"> VER OFERTAS </a> </button>
+				<button type="button" class="btn btn-outline-light btn-lg"><a href="BuscarEmpleos.php"> VER OFERTAS </a> </button>
 				<button type="button" class="btn btn-outline-light btn-lg"><a href="TablaJson/tjson.php"> OFERTAS JSON </a> </button>
 				<button type="button" class="btn btn-outline-light btn-lg"><a href="NuevosEmpleos.html"> AGREGAR OFERTA </a> </button>
+				<button type="button" class="btn btn-primary btn-lg"><a href="Cookies/practica.php"> APLICA AHORA </a>
 				</div>
 
 				<div align="center">
