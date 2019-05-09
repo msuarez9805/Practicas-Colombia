@@ -1,7 +1,12 @@
 <?php
+	/**
+	*Se reaunada la sesion ya creada
+	*/
 	session_start();
 	$varSession = $_SESSION ['usuario'];
-		
+	/**
+	*Se realiza un condicional para que solo puedan acceder al contenido de la pagina los usuario con sesion creada y logeada en la pagina.
+	*/	
 	if ($varSession==null || $varSession = ''){
 		echo '<script>alert("Usted no tiene autorizacion, Debe iniciar session con su cuenta de Practicas Colombia para poder acceder a este apartado. Gracias")</script>';	
 		die();

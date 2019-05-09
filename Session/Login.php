@@ -1,4 +1,7 @@
 <?php
+	/**
+	*Se inicia una sesion creada
+	*/
 	session_start();
 ?>
 
