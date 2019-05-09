@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=poppins');
+
+
+/* Estilos de fuente para el documento */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Nav Bar */
+.navbar {
+    background: rgba(44, 45, 54, 0.9);
+    opacity: .9;
+}
+
+.nav-link,
+.navbar-brand {
+    color: ghostwhite;
+    cursor: pointer;
+    font-size: px;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #9dc183;
+    color: black;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+/* Sliders */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Titulo de la página centrada */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+/* Tamaño y sombra del título h1 */
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+
+/* Tamaño y sombras del titulo h3  */
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+/* Color del boton Primario  */
+.btn-primary {
+    background-color: #0b6623;
+    border: 1px solid #0b6623;
+}
+
+/* Color cuando se pasa el cursor por el botón primario */
+.btn-primary:hover {
+    background-color: #3f704d;
+    border: 1px solid #3f704d;
+}
+
+/* Tamaño Logo Prácticas Colombia */
+.tamaño-logo {
+    height: 60px;
+    width: 60px;
+}
+
+
+/*  */
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+/*  */
+.padding {
+    padding-bottom: 1rem;
+}
+
+/*  */
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+/*  */
+.welcome {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-bottom: .3rem;
+    margin-bottom: 1rem;
+}
+
+/* Cambia el tamaño de los íconos */
+.fa-university,
+.fa-connectdevelop,
+.fa-graduation-cap {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+/*  */
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+
+/* Tamaño de las Fotos del Equipo de Trabajo */
+.tamaño-fotos-equipo {
+    margin: 0 auto;
+}
+
+/* Tamaño imagen de atrás */
+.tamaño-imagen-atras {
+    margin: 0 auto;
+    width: auto;
+}
+
+
+/*  */
+.fa-facebook {
+    color: #3b5998;
+}
+
+/*  */
+.fa-twitter {
+    color: #00aced;
+}
+
+/*  */
+.fa-whatsapp {
+    color: #25d366;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-whatsapp:hover {
+    color: #d5d5d5;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .carousel-caption {
+        top: 45%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+
+    .display-4 {
+        font-size: 200%;
+    }
+
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .display-4 {
+        font-size: 160%;
+    }
+
+    .social a {
+        font-size: 2em;
+        padding: .7rem;
+    }
+}
+
+/* Firefox Bug Fix */
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5 ease, -webkit-transform 0.5 ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+/* Fixed Background Image */
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0 !important;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#fixed {
+    background-image: url('img/mac.png');
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+/* Bootstrap Padding Fix */
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+article {
+    padding:20px;
+    width: 70%;
+    float:left;
+    margin-bottom: 20px;
+}
+aside {
+    width: 30%;
+    float:left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.filtrado {
+    background: url(../Img/ImagenFondo.jpg) no-repeat center center fixed;
+}
+
+aside {
+
+}
