@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-
 body {
     font-family: 'Poppins', sans-serif;
-    background: url(img/cambiarimagen.jpg) no-repeat center center fixed;
+    background: url();
     background-size: cover;
+	background: url(../Img/ImagenFondo.jpg) no-repeat center center fixed;
 }
 
 button {

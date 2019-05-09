@@ -7,6 +7,9 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'poppins', sans-serif;
+    background: url(../Img/ImagenFondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+
 }
 
 /* Nav Bar */
@@ -242,6 +245,7 @@ footer a {
 
     .display-4 {
         font-size: 160%;
+		text-shadow: 1px 1px 10px #fff;
     }
 
     .social a {
@@ -315,4 +319,11 @@ aside {
 
 aside {
 
+}
+
+/* Container */
+.container {
+    background-color: whitesmoke;
+    opacity: .8;
+    border-radius: 10px;
 }
