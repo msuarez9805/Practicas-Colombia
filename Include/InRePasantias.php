@@ -62,8 +62,8 @@
 						<?php
 							/**
 							*@method $include y $requiere
-							*El metodo include sirve para agregar texto llamando a un archivo diferente
-							*El metodo require da una adverentencia que notifica que el archivo llamado no se encuentra o si exite el archivo funciona igual que el include
+							*El metodo include da una adverentencia que notifica que el archivo llamado no se encuentra o si exite el archivo funciona igual que el include
+							*El metodo sirve para agregar texto llamando a un archivo diferente
 							*/
 							include "Pasantias.php";
 							require "Pasantias.php";
@@ -71,8 +71,7 @@
 						?>
 				</div>
 			</div>
-		</div>	
-	
+		</div>
 		<footer>
 			<div class="container-fluid padding">
 				<div class="row text-center">

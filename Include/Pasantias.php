@@ -67,7 +67,6 @@
 						<?php
 							echo "Aqui encontrara algunos consejos que le serviran al momento de iniciar sus pasantias";
 
-							echo "<br>";
 
 							echo "1. Escoja una buena agencia o empresa.";
 
