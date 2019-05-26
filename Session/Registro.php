@@ -50,7 +50,9 @@
 					<div class="col-12 user-img">
 						<img src="../Img/LogotipoPracticasColombia.ico" alt="Logo Prácticas Colombia">
 
-						<form class="col-12" onsubmit="return validar();">
+				<!-- Form que referencia al archivo Datos.php y el método Post -->
+
+						<form action="Datos.php" method="post" class="col-12" onsubmit="return validar();">
 							<div class="form-group">
 								<input id="nombres" type="" class="form-control" placeholder="Nombres" required>
 							</div>
