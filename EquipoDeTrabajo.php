@@ -86,7 +86,7 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top tamaño-fotos-equipo" src="img/Julio.jpeg" alt="">
+                    <img class="card-img-top tamaño-fotos-equipo" src="Img/Julio.jpeg" alt="">
                     <div class="card-body">
                         <h4 class="card-title">Julio</h4>
                         <p class="card-text">

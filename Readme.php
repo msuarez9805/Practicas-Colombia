@@ -52,7 +52,7 @@
 						<br>
 						<section>
 							<aside>
-								<img src="img/cambiarimagen4.jpg" class="img-fluid" alt="Cambiar Imagen 4" width="300px">
+								<img src="Img/cambiarimagen4.jpg" class="img-fluid" alt="Cambiar Imagen 4" width="300px">
 							</aside>
 							<article>
 								<p>
