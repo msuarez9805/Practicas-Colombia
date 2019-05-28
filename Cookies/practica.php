@@ -40,7 +40,7 @@
 
 	<body>
 
-		<!-- Barra de Navegación que nos proporciona varias obciones de modificación con bootstrap y permite una gran variedad de clases que se adecuan a las preferencias de las personas -->
+		<!-- Barra de Navegación que nos proporciona varias opciones de modificación con bootstrap y permite una gran variedad de clases que se adecuan a las preferencias de las personas -->
 
 		<nav class="navbar navbar-expand-lg fixed-top ">
 				<a class="navbar-brand" href="#"> <img src="../Img/LogotipoPracticasColombia.ico" width="50px" alt="">
