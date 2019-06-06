@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 	<head>
@@ -52,22 +53,22 @@
 
 						<form class="col-12" onsubmit="return validar();">
 							<div class="form-group">
-								<input id="nombres" type="" class="form-control" placeholder="Nombres" required>
+								<input id="nombre" type="" class="form-control" placeholder="nombre" required>
 							</div>
 							<div class="form-group">
-								<input id="apellidos" type="" class="form-control" placeholder="Apellidos" required>
+								<input id="apellido" type="" class="form-control" placeholder="apellido" required>
 							</div>
 							<div class="form-group">
-								<input id="correo" type="email" class="form-control" placeholder="Correo electrónico" required>
+								<input id="pass" type="password" class="form-control" placeholder="password" required>
 							</div>
 							<div class="form-group">
-								<input id="contraseña" type="password" class="form-control" placeholder="Contraseña" required>
-							</div>
-							<div class="form-group">
-								<input id="repetir" type="password" class="form-control" placeholder="Repetir Contraseña" required>
+								<input id="programa" type="" class="form-control" placeholder="programa" required>
 							</div>
 							<div class="form-group">
 								<input id="documento"type="" class="form-control" placeholder="Documento de Identidad" required>
+							</div>
+							<div class="form-group">
+								<input id="edad"type="" class="form-control" placeholder="edad" required>
 							</div>
 							<button type="submit" class="btn"><i class="fas"></i>ENVIAR</button>
 						</form>

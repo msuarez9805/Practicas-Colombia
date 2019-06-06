@@ -1,4 +1,5 @@
 <?php
+
 	/**
 	*Se inicia una sesion creada
 	*/

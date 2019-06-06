@@ -1,4 +1,5 @@
 <?php
+require("conectar_BD");
 	/**
 	*session_start() Inicia la sesion creada
 	*/
@@ -28,4 +29,3 @@
 	}	
 ?>
 
-	
