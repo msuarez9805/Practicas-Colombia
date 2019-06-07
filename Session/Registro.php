@@ -50,25 +50,28 @@
 				<div class="modal-content">
 					<div class="col-12 user-img">
 						<img src="../Img/LogotipoPracticasColombia.ico" alt="Logo Prácticas Colombia">
-
+                        <form action = "registro_db.php" method="post" class="form-register" onsubmit="return validar();"></form>
 						<form class="col-12" onsubmit="return validar();">
 							<div class="form-group">
-								<input id="nombre" type="" class="form-control" placeholder="nombre" required>
+								<input id="nombre" type="" class="form-control" placeholder="Nombres" required>
 							</div>
 							<div class="form-group">
-								<input id="apellido" type="" class="form-control" placeholder="apellido" required>
+								<input id="apellido" type="" class="form-control" placeholder="Apellidos" required>
 							</div>
 							<div class="form-group">
-								<input id="pass" type="password" class="form-control" placeholder="password" required>
+								<input id="edad" type="edad" class="form-control" placeholder="Edad" required>
 							</div>
 							<div class="form-group">
-								<input id="programa" type="" class="form-control" placeholder="programa" required>
+								<input id="pass" type="password" class="form-control" placeholder="Contraseña" required>
+							</div>
+							<div class="form-group">
+								<input id="repetir" type="password" class="form-control" placeholder="Repetir Contraseña" required>
 							</div>
 							<div class="form-group">
 								<input id="documento"type="" class="form-control" placeholder="Documento de Identidad" required>
 							</div>
 							<div class="form-group">
-								<input id="edad"type="" class="form-control" placeholder="edad" required>
+								<input id="programa"type="" class="form-control" placeholder="Programa" required>
 							</div>
 							<button type="submit" class="btn"><i class="fas"></i>ENVIAR</button>
 						</form>
