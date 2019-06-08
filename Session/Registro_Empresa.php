@@ -52,36 +52,34 @@
 
 				<!-- Form que referencia al archivo Datos.php y el método Post -->
 
-						<form action="Datos.php" method="post" class="col-12" onsubmit="return validar();">
+						<form action="Datos_Empresa.php" method="post" class="col-12" onsubmit="return validar();">
 							<div class="form-group">
-								<input id="nombres" name="nombres" type="" class="form-control" placeholder="Nombres" required>
+								<input id="empresa" name="empresa" type="" class="form-control" placeholder="Empresa" required>
 							</div>
 							<div class="form-group">
-								<input id="apellidos" name="apellidos" type="" class="form-control" placeholder="Apellidos" required>
+								<input id="telefono" name="telefono" type="" class="form-control" placeholder="Teléfono" required>
 							</div>
 							<div class="form-group">
-								<input id="correo" type="email" name="correo" class="form-control" placeholder="Correo electrónico" required>
+								<input id="correo" type="" name="correo" class="form-control" placeholder="Correo electrónico" required>
 							</div>
 							<div class="form-group">
-								<input id="clave" type="password" name="clave" class="form-control" placeholder="Contraseña" required>
+								<input id="clave" type="" name="clave" class="form-control" placeholder="Contraseña" required>
 							</div>
 							<div class="form-group">
-								<input id="repetir" type="password" name="repetir" class="form-control" placeholder="Repetir Contraseña" required>
-							</div>
-							<div class="form-group">
-								<input id="documento" name="documento" type="" class="form-control" placeholder="Documento de Identidad" required>
+								<input id="direccion" type="" name="direccion" class="form-control" placeholder="Dirección" required>
 							</div>
 							<button type="submit" class="btn"><i class="fas"></i>ENVIAR</button>
 						</form>
 						<div class="col-12 forgot">
 							<a href="Login.php">Iniciar Sesión</a>
-							<a href="Login.php">Soy empresa</a>
+							<br>
+							<a href="Login.php">Soy Estudiante</a>
 						</div>
 					</div>
 				</div> <!--Final del Modal Content-->
 			</div>
 		</div>
-    	
+
     		<!-- Footer -->
 		<footer>
 			<div class="container-fluid padding">
