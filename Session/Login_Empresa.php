@@ -1,6 +1,38 @@
+<?php
+
+session_start();
+  if (isset($_SESSION['user_id'])) {
+    header('Location: Login.php');
+  }
+// *Con include, se incluye dentro del archivo Datos.php el archivo Conexion.php que es la conexión a la base de datos.
+include 'Conexion.php';
+
+/**
+ *Condicional if, se refiere a que los espacios clave y contraseña no esten vacios.
+ *La variable $records busca ejecutar una consulta con la variable $conn y con el metodo SELECT verificar los datos de la base de datos de la tabla Usuario.
+ *bindParam vincula el parametro del correo enviado por el metodo POST.
+ *Fetch_ASSOC busca asociar los datos.
+ *count permite contar los resultados. Y verificar si las contraseñas son
+ *Se crea una Sesion y verifica que el usuario sea correcto
+**/
+if (!empty($_POST['correo']) && !empty($_POST['clave'])) {
+    $records = $conn->prepare('SELECT id, correo, clave FROM Usuario WHERE correo = :correo');
+    $records->bindParam(':correo', $_POST['correo']);
+    $records->execute();
+    $results = $records->fetch(PDO::FETCH_ASSOC);
+    $message = '';
+    if (count($results) > 0 && password_verify($_POST['clave'], $results['clave'])) {
+      $_SESSION['user_id'] = $results['id'];
+      header("Location: Login.php");
+    } else {
+      $message = 'Los datos ingresados no coinciden';
+    }
+  }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
 		<meta charset="UTF-8">
 		 <!-- +++++++++++ -->
@@ -43,58 +75,31 @@
 			</div>
 		</nav>
 
-	   <!-- Contenedor del Formulario -->
-		<div class="modal-dialog text-center">
+    	<div class="modal-dialog text-center">
 			<div class="col-sm-8 main-section">
 				<div class="modal-content">
 					<div class="col-12 user-img">
 						<img src="../Img/LogotipoPracticasColombia.ico" alt="Logo Prácticas Colombia">
-
-				<!-- Form que referencia al archivo Datos.php y el método Post -->
-                 <!--
-                *Form, donde se referencia el metodo de envio de datos php y el archivo que referencia con    extensión .php
-                *action = "Datos_Empresa.php"
-                *method = "post"
-                -->
-						<form action="Datos_Empresa.php" method="post" class="col-12" onsubmit="return validar();">
+							<form action="Datos_Login.php" class="col-12" method="post" onsubmit="return validar();">
 							<div class="form-group">
-								<input id="empresa" name="empresa" type="" class="form-control" placeholder="Empresa" required>
-								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
-								*name = "empresa" -->
-							</div>
-							<div class="form-group">
-								<input id="telefono" name="telefono" type="" class="form-control" placeholder="Teléfono" required>
-								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
-								*name = "telefono" -->
-							</div>
-							<div class="form-group">
-								<input id="correo" type="" name="correo" class="form-control" placeholder="Correo electrónico" required>
-								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
-								*name = "correo" -->
+								<input id="correo" type="email" name="correo" class="form-control" placeholder="Correo electrónico" required>
 							</div>
 							<div class="form-group">
 								<input id="clave" type="password" name="clave" class="form-control" placeholder="Contraseña" required>
-								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
-								*name = "clave" -->
 							</div>
-							<div class="form-group">
-								<input id="direccion" type="" name="direccion" class="form-control" placeholder="Dirección" required>
-								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
-								*name = "direccion" -->
-							</div>
-							<button type="submit" class="btn"><i class="fas"></i>ENVIAR</button>
-						</form>
+							<button type="submit" name="submit" class="btn"><i class="fas"></i>ENVIAR</button>
+							</form>
 						<div class="col-12 forgot">
-							<a href="Login_Empresa.php">Iniciar Sesión</a>
-							<br>
-							<a href="Registro.php">Soy Estudiante</a>
+							<h10>¿Aún no estas registrado?</h10>
+							<a href="Registro_Empresa.php">Registrate</a>
 						</div>
 					</div>
 				</div> <!--Final del Modal Content-->
 			</div>
-		</div>
+    	</div>
+		<script src="js/login.js" type="text/javascript"></script>
 
-    		<!-- Footer -->
+			<!-- Footer -->
 		<footer>
 			<div class="container-fluid padding">
 				<div class="row text-center">
@@ -132,12 +137,5 @@
 			</div>
 		</footer>
 
-    	<script src="js/registro_empresa.js" type="text/javascript"></script>
 	</body>
 </html>
-
-
-
-
-
-
