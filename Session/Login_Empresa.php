@@ -80,7 +80,7 @@ if (!empty($_POST['correo']) && !empty($_POST['clave'])) {
 				<div class="modal-content">
 					<div class="col-12 user-img">
 						<img src="../Img/LogotipoPracticasColombia.ico" alt="Logo Prácticas Colombia">
-							<form action="Login.php" class="col-12" method="post" onsubmit="return validar();">
+							<form action="Datos_Login.php" class="col-12" method="post" onsubmit="return validar();">
 							<div class="form-group">
 								<input id="correo" type="email" name="correo" class="form-control" placeholder="Correo electrónico" required>
 							</div>
@@ -91,14 +91,14 @@ if (!empty($_POST['correo']) && !empty($_POST['clave'])) {
 							</form>
 						<div class="col-12 forgot">
 							<h10>¿Aún no estas registrado?</h10>
-							<a href="Registro.php">Registrate</a>
+							<a href="Registro_Empresa.php">Registrate</a>
 						</div>
 					</div>
 				</div> <!--Final del Modal Content-->
 			</div>
     	</div>
 		<script src="js/login.js" type="text/javascript"></script>
-		
+
 			<!-- Footer -->
 		<footer>
 			<div class="container-fluid padding">
@@ -136,6 +136,6 @@ if (!empty($_POST['correo']) && !empty($_POST['clave'])) {
 				</div>
 			</div>
 		</footer>
-		
+
 	</body>
 </html>

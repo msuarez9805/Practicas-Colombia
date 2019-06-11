@@ -26,7 +26,7 @@
 			<div class="collapse navbar-collapse " id="navbarSupportedContent">
 				<ul class="navbar-nav mr-4">
 					<li class="nav-item">
-						<a class="nav-link" data-value="about" href="../index.php">Inicio</a> </li>
+						<a class="nav-link" data-value="about" href="../Index.php">Inicio</a> </li>
 					<li class="nav-item">
 						<a class="nav-link " data-value="portfolio" href="../Readme.php">Acerca de</a>
 						</li>
@@ -51,31 +51,47 @@
 						<img src="../Img/LogotipoPracticasColombia.ico" alt="Logo Prácticas Colombia">
 
 				<!-- Form que referencia al archivo Datos.php y el método Post -->
-
+                <!--
+                *Form, donde se referencia el metodo de envio de datos php y el archivo que referencia con    extensión .php
+                *action = "Datos.php"
+                *method = "post"
+                -->
 						<form action="Datos.php" method="post" class="col-12" onsubmit="return validar();">
 							<div class="form-group">
-								<input id="nombres" type="" class="form-control" placeholder="Nombres" required>
+								<input id="nombres" name="nombres" type="" class="form-control" placeholder="Nombres" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "nombres" -->
 							</div>
 							<div class="form-group">
-								<input id="apellidos" type="" class="form-control" placeholder="Apellidos" required>
+								<input id="apellidos" name="apellidos" type="" class="form-control" placeholder="Apellidos" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "apellidos" -->
 							</div>
 							<div class="form-group">
-								<input id="correo" type="email" class="form-control" placeholder="Correo electrónico" required>
+								<input id="correo" type="email" name="correo" class="form-control" placeholder="Correo electrónico" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "email" -->
 							</div>
 							<div class="form-group">
-								<input id="contraseña" type="password" class="form-control" placeholder="Contraseña" required>
+								<input id="clave" type="password" name="clave" class="form-control" placeholder="Contraseña" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "clave" -->
 							</div>
 							<div class="form-group">
-								<input id="repetir" type="password" class="form-control" placeholder="Repetir Contraseña" required>
+								<input id="repetir" type="password" name="repetir" class="form-control" placeholder="Repetir Contraseña" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "repetir" -->
 							</div>
 							<div class="form-group">
-								<input id="documento"type="" class="form-control" placeholder="Documento de Identidad" required>
+								<input id="documento" name="documento" type="" class="form-control" placeholder="Documento de Identidad" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "documento" -->
 							</div>
 							<button type="submit" class="btn"><i class="fas"></i>ENVIAR</button>
 						</form>
 						<div class="col-12 forgot">
 							<a href="Login.php">Iniciar Sesión</a>
-							<a href="Login.php">Soy empresa</a>
+							<a href="Registro_Empresa.php">Soy empresa</a>
 						</div>
 					</div>
 				</div> <!--Final del Modal Content-->
@@ -123,3 +139,9 @@
     	<script src="js/registro.js" type="text/javascript"></script>
 	</body>
 </html>
+
+
+
+
+
+
